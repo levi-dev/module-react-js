@@ -1,6 +1,7 @@
 {
     "name": "levi/module-react-js",
     "description": "Module ReactJs",
+    "type": "module",
     "authors": [
         {
             "name": "levi",
@@ -8,5 +9,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Levi\\Reactjs\\": ""
+        }
+    }
 }
