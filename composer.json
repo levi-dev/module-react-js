@@ -1,0 +1,12 @@
+{
+    "name": "levi/module-react-js",
+    "description": "Module ReactJs",
+    "authors": [
+        {
+            "name": "levi",
+            "email": "levi.dev.xxx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
